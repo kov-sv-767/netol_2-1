@@ -5,6 +5,7 @@ public class SalesManager {
         this.sales = sales;
     }
 
+
     public int max() {
         int max = -1;
         for (int sale : sales) {
